@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true
+  },
+  "include": ["02_router传参/**/*.ts", "02_router传参/**/*.d.ts", "02_router传参/**/*.tsx", "02_router传参/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
