@@ -13,6 +13,6 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true
   },
-  "include": ["02_router传参/**/*.ts", "02_router传参/**/*.d.ts", "02_router传参/**/*.tsx", "02_router传参/**/*.vue"],
+  "include": ["10_scrollBehavior/**/*.ts/**/10_scrollBehavior/**/*.d.tsuter10_scrollBehavior/**/*.tsx", "10_scrollBehavior/**/*.vue**/*.tsx", "02_router传参/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
